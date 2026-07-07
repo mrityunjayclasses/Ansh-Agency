@@ -280,10 +280,10 @@ nav a:hover{
         justify-content:center;
     }
 
-    /* .hero{
+    .hero{
     min-height:70vh;
     padding:150px 20px 40px;
-} */
+}
 
     .hero h1{
         font-size:32px;
@@ -854,7 +854,7 @@ nav ul li a:hover{
 }
 
 /* Mobile Hero Fix */
-@media (max-width:768px){
+/* @media (max-width:768px){
 
     .hero{
         height:45vh;
@@ -894,4 +894,4 @@ nav ul li a:hover{
         bottom:15px;
         font-size:18px;
     }
-}
+} */
