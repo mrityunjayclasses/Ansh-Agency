@@ -757,7 +757,7 @@ header{
 /* Top Social Bar */
 
 .top-bar{
-    background:#0f172a;
+    background:#d2b408;
     display:flex;
     justify-content:flex-end;
     padding:0px 80px;
@@ -769,15 +769,6 @@ header{
     gap:18px;
 }
 
-.social-icons a{
-    color:#fff;
-    font-size:20px;
-    text-decoration: none;
-}
-
-.social-icons a:hover{
-    color:#22c55e;
-}
 /* Logo */
 
 .logo-container{
@@ -805,7 +796,7 @@ header{
 /* Bottom Navbar */
 
 nav{
-    background:#16213e;
+    background:#3b559e;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -895,3 +886,14 @@ nav ul li a:hover{
         font-size:18px;
     }
 } */
+
+
+.social-icons img{
+    width:24px;
+    height:24px;
+    transition:.3s;
+}
+
+.social-icons img:hover{
+    transform:scale(1.2);
+}
