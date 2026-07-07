@@ -852,3 +852,45 @@ nav ul li a:hover{
     background:#22c55e;
     transform:scale(1.1);
 }
+
+/* Mobile Hero Fix */
+@media (max-width:768px){
+
+    .hero{
+        height:60vh;
+        min-height:450px;
+        padding-top:120px;
+    }
+
+    .hero-content{
+        padding:15px;
+    }
+
+    .hero-content h1{
+        font-size:34px;
+        line-height:1.2;
+    }
+
+    .hero-content p{
+        font-size:16px;
+        line-height:1.5;
+        margin-bottom:20px;
+    }
+
+    .hero-btn{
+        padding:12px 22px;
+        font-size:16px;
+    }
+
+    .hero-video{
+        object-position:center;
+    }
+
+    #soundBtn{
+        width:45px;
+        height:45px;
+        font-size:18px;
+        right:15px;
+        bottom:15px;
+    }
+}
