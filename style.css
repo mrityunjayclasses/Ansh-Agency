@@ -280,10 +280,10 @@ nav a:hover{
         justify-content:center;
     }
 
-    .hero{
+    /* .hero{
     min-height:70vh;
     padding:150px 20px 40px;
-}
+} */
 
     .hero h1{
         font-size:32px;
@@ -857,9 +857,15 @@ nav ul li a:hover{
 @media (max-width:768px){
 
     .hero{
-        height:60vh;
-        min-height:450px;
-        padding-top:120px;
+        height:45vh;
+        min-height:300px;
+        max-height:380px;
+        padding-top:85px;
+    }
+
+    .hero-video{
+        object-fit:cover;
+        object-position:center;
     }
 
     .hero-content{
@@ -867,30 +873,25 @@ nav ul li a:hover{
     }
 
     .hero-content h1{
-        font-size:34px;
+        font-size:28px;
         line-height:1.2;
     }
 
     .hero-content p{
-        font-size:16px;
-        line-height:1.5;
-        margin-bottom:20px;
+        font-size:15px;
+        margin-bottom:15px;
     }
 
     .hero-btn{
-        padding:12px 22px;
-        font-size:16px;
-    }
-
-    .hero-video{
-        object-position:center;
+        padding:10px 18px;
+        font-size:15px;
     }
 
     #soundBtn{
-        width:45px;
-        height:45px;
-        font-size:18px;
+        width:42px;
+        height:42px;
         right:15px;
         bottom:15px;
+        font-size:18px;
     }
 }
